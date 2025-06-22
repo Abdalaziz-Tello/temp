@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Klusbedrijf Hellevoetsluis - App Downloads</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #ffcc00, #ffe680, #fff8dc);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    header {
+      padding: 20px;
+      width: 100%;
+      background: none;
+    }
+
+    header img {
+      max-height: 250px;
+    }
+
+    h1 {
+      color: #000000;
+      margin-top: 20px;
+    }
+
+    .btn-container {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .download-btn {
+      background-color: #000000;
+      color: #ffcc00;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-btn:hover {
+      background-color: #333333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Klusbedrijf Hellevoetsluis Logo">
+  </header>
+  <main>
+    <h1>Download onze app</h1>
+    <div class="btn-container">
+      <a href="https://apps.apple.com/" class="download-btn" target="_blank">Download op iOS</a>
+      <a href="https://play.google.com/store" class="download-btn" target="_blank">Download op Android (Google Play)</a>
+      <a href="./ttt.apk" class="download-btn" download>Download APK direct</a>
+    </div>
+  </main>
+</body>
+</html>
